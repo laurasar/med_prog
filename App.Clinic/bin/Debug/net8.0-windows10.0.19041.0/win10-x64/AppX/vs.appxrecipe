@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-11T03:50:21.187</Modified>
+      <Modified>2024-12-11T17:49:47.569</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-11T03:50:20.943</Modified>
+      <Modified>2024-12-11T17:49:47.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.runtimeconfig.json">
       <PackagePath>App.Clinic.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-10T22:22:56.629</Modified>
+      <Modified>2024-12-11T17:49:46.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.dll">
       <PackagePath>App.Clinic.dll</PackagePath>
-      <Modified>2024-12-11T03:50:19.805</Modified>
+      <Modified>2024-12-11T17:49:45.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>App.Clinic.exe</PackagePath>
-      <Modified>2024-12-11T03:50:19.815</Modified>
+      <Modified>2024-12-11T17:49:45.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.deps.json">
       <PackagePath>App.Clinic.deps.json</PackagePath>
-      <Modified>2024-12-11T03:50:20.570</Modified>
+      <Modified>2024-12-11T17:49:46.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
