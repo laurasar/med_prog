@@ -9,6 +9,11 @@ namespace Library.Clinic.Models
 {
     public class Patient
     {
+        public override string ToString()
+        {
+            return $"[{Id}] {Name}";
+        }
+
         public int Id { get; set; } 
 
         private string? name; // example of a field which is a data member 
