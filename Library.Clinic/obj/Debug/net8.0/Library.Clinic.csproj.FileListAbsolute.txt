@@ -1,0 +1,12 @@
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\bin\Debug\net8.0\Library.Clinic.deps.json
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\bin\Debug\net8.0\Library.Clinic.dll
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\bin\Debug\net8.0\Library.Clinic.pdb
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.AssemblyInfoInputs.cache
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.AssemblyInfo.cs
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.csproj.CoreCompileInputs.cache
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.dll
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\refint\Library.Clinic.dll
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.pdb
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\ref\Library.Clinic.dll
+C:\Users\msinf\source\repos\med_prog1\Library.Clinic\obj\Debug\net8.0\Library.Clinic.sourcelink.json

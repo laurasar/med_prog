@@ -1,0 +1,1 @@
+C:\Users\msinf\source\repos\med_prog1\App.Clinic\App.Clinic.csproj;x64
