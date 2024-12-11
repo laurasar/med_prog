@@ -8,5 +8,6 @@
                ItemsSource = "{Binding Patients}" 
         ></ListView>
         <Button Text="Cancel" Clicked="CancelClicked"/>
+        <Button Text="Add" Clicked="AddClicked" />
     </VerticalStackLayout>
 </ContentPage>
