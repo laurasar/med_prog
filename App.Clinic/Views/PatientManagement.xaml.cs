@@ -1,3 +1,4 @@
+using App.Clinic.ViewModel;
 using Library.Clinic.Models;
 using Library.Clinic.Services;
 using Microsoft.VisualBasic;
@@ -8,24 +9,10 @@ namespace App.Clinic.Views;
 
 public partial class PatientManagement : ContentPage, INotifyPropertyChanged
 {
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    private void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
-
-
-    public List<Patient> Patients {
-        get
-        {
-            return PatientServiceProxy.Current.Patients ;
-        } 
-    }
     public PatientManagement()
     {
         InitializeComponent();
-        BindingContext = this; 
+        BindingContext = new PatientManagementViewModel(); 
     }
 
     private void CancelClicked (object sender, EventArgs e)
@@ -36,5 +23,10 @@ public partial class PatientManagement : ContentPage, INotifyPropertyChanged
     private void AddClicked (object sender, EventArgs e)
     {
         Shell.Current.GoToAsync("//PatientDetails");
+    }
+
+    private void PatientManagement_NavigatedTo(object sender, NavigatedToEventArgs e)
+    {
+        (BindingContext as PatientManagementViewModel)?.Refresh();
     }
 }
