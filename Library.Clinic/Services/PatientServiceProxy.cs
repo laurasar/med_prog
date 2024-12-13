@@ -30,14 +30,13 @@ namespace Library.Clinic.Services
         {
             instance = null;
 
+
             Patients = new List<Patient>
             {
-                new Patient { Id = 1 , Name = "John Doe"}
-                , new Patient { Id = 2 , Name = "Jane Doe" }
+                new Patient{Id = 1, Name = "John Doe"}
+                , new Patient{Id = 2, Name = "Jane Doe"}
             };
         }
-
-        private List<Patient> patients; 
         public int LastKey
         {
             get
@@ -49,12 +48,15 @@ namespace Library.Clinic.Services
                 return 0;
             }
         }
+
+        private List<Patient> patients;
         public List<Patient> Patients
         {
             get
             {
                 return patients;
             }
+
             private set
             {
                 if (patients != value)
@@ -64,13 +66,20 @@ namespace Library.Clinic.Services
             }
         }
 
-        public void AddPatient(Patient patient)
+        public void AddOrUpdatePatient(Patient patient)
         {
+            bool isAdd = false;
             if (patient.Id <= 0)
             {
                 patient.Id = LastKey + 1;
+                isAdd = true;
             }
-            Patients.Add(patient);
+
+            if (isAdd)
+            {
+                Patients.Add(patient);
+            }
+
         }
 
         public void DeletePatient(int id)

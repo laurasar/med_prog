@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\msinf\\source\\repos\\med_prog1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\views\\patientmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\views\\patientmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\views\\patientmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\views\\patientmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\viewmodel\\patientmanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\viewmodel\\patientmanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{670868BB-5ABB-4C37-86BC-CC4A154C6EBD}|Library.Clinic\\Library.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\library.clinic\\services\\patientserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{670868BB-5ABB-4C37-86BC-CC4A154C6EBD}|Library.Clinic\\Library.Clinic.csproj|solutionrelative:library.clinic\\services\\patientserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\views\\patientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\views\\patientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\views\\patientmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\views\\patientmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\viewmodel\\patientmanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\viewmodel\\patientmanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\views\\patientmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\views\\patientmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\views\\patientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -45,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\app.clinic\\app.clinic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FDB79F02-FF89-4931-B4D7-EB944AB05415}|App.Clinic\\App.Clinic.csproj|solutionrelative:app.clinic\\app.clinic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D338196-BB5C-40D7-BDFD-716FD49D3369}|med_prog1\\med_prog1.csproj|c:\\users\\msinf\\source\\repos\\med_prog1\\med_prog1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,28 +82,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PatientManagementViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
-              "RelativeDocumentMoniker": "App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
-              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
-              "RelativeToolTip": "App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PatientServiceProxy.cs",
+              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Services\\PatientServiceProxy.cs",
+              "RelativeDocumentMoniker": "Library.Clinic\\Services\\PatientServiceProxy.cs",
+              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Services\\PatientServiceProxy.cs",
+              "RelativeToolTip": "Library.Clinic\\Services\\PatientServiceProxy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T21:39:26.925Z",
+              "WhenOpened": "2024-11-26T01:49:36.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PatientView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientView.xaml.cs",
+              "RelativeDocumentMoniker": "App.Clinic\\Views\\PatientView.xaml.cs",
+              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientView.xaml.cs",
+              "RelativeToolTip": "App.Clinic\\Views\\PatientView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:42:26.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PatientManagement.xaml.cs",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientManagement.xaml.cs",
               "RelativeDocumentMoniker": "App.Clinic\\Views\\PatientManagement.xaml.cs",
               "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientManagement.xaml.cs",
               "RelativeToolTip": "App.Clinic\\Views\\PatientManagement.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T17:59:17.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
+              "RelativeDocumentMoniker": "App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
+              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
+              "RelativeToolTip": "App.Clinic\\ViewModel\\PatientManagementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T21:39:26.925Z",
               "EditorCaption": ""
             },
             {
@@ -125,41 +147,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PatientManagement.xaml",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientManagement.xaml",
               "RelativeDocumentMoniker": "App.Clinic\\Views\\PatientManagement.xaml",
               "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientManagement.xaml",
               "RelativeToolTip": "App.Clinic\\Views\\PatientManagement.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-11T03:44:47.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PatientServiceProxy.cs",
-              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Services\\PatientServiceProxy.cs",
-              "RelativeDocumentMoniker": "Library.Clinic\\Services\\PatientServiceProxy.cs",
-              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Services\\PatientServiceProxy.cs",
-              "RelativeToolTip": "Library.Clinic\\Services\\PatientServiceProxy.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T01:49:36.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientView.xaml.cs",
-              "RelativeDocumentMoniker": "App.Clinic\\Views\\PatientView.xaml.cs",
-              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\Views\\PatientView.xaml.cs",
-              "RelativeToolTip": "App.Clinic\\Views\\PatientView.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwBAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:42:26.603Z",
               "EditorCaption": ""
             },
             {
@@ -229,19 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.Clinic.csproj",
-              "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\App.Clinic.csproj",
-              "RelativeDocumentMoniker": "App.Clinic\\App.Clinic.csproj",
-              "ToolTip": "C:\\Users\\msinf\\source\\repos\\med_prog1\\App.Clinic\\App.Clinic.csproj",
-              "RelativeToolTip": "App.Clinic\\App.Clinic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T21:13:51.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "AppointmentServiceProxy.cs",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Services\\AppointmentServiceProxy.cs",
               "RelativeDocumentMoniker": "Library.Clinic\\Services\\AppointmentServiceProxy.cs",
@@ -249,11 +233,12 @@
               "RelativeToolTip": "Library.Clinic\\Services\\AppointmentServiceProxy.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T01:10:00.205Z"
+              "WhenOpened": "2024-11-27T01:10:00.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "Library.Clinic\\Models\\Appointment.cs",
@@ -261,11 +246,12 @@
               "RelativeToolTip": "Library.Clinic\\Models\\Appointment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T01:08:39.104Z"
+              "WhenOpened": "2024-11-27T01:08:39.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "PhysicianServiceProxy.cs",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Services\\PhysicianServiceProxy.cs",
               "RelativeDocumentMoniker": "Library.Clinic\\Services\\PhysicianServiceProxy.cs",
@@ -273,11 +259,12 @@
               "RelativeToolTip": "Library.Clinic\\Services\\PhysicianServiceProxy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T22:46:35.992Z"
+              "WhenOpened": "2024-11-26T22:46:35.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\med_prog1\\Program.cs",
               "RelativeDocumentMoniker": "med_prog1\\Program.cs",
@@ -285,11 +272,12 @@
               "RelativeToolTip": "med_prog1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T19:57:08.64Z"
+              "WhenOpened": "2024-11-23T19:57:08.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Physician.cs",
               "DocumentMoniker": "C:\\Users\\msinf\\source\\repos\\med_prog1\\Library.Clinic\\Models\\Physician.cs",
               "RelativeDocumentMoniker": "Library.Clinic\\Models\\Physician.cs",
@@ -297,7 +285,8 @@
               "RelativeToolTip": "Library.Clinic\\Models\\Physician.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T22:27:27.267Z"
+              "WhenOpened": "2024-11-26T22:27:27.267Z",
+              "EditorCaption": ""
             }
           ]
         }
