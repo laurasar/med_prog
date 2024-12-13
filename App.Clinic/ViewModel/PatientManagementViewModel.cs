@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Clinic.ViewModel
+namespace App.Clinic.ViewModels
 {
-    public class PatientManagementViewModel :INotifyPropertyChanged
+    public class PatientManagementViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -20,15 +20,7 @@ namespace App.Clinic.ViewModel
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-
-        //public List<Patient> Patients
-        //{
-        //    get
-        //    {
-        //        return PatientServiceProxy.Current.Patients;
-        //    }
-        //}
-
+        public Patient? SelectedPatient { get; set; }
         public ObservableCollection<Patient> Patients
         {
             get
@@ -37,10 +29,20 @@ namespace App.Clinic.ViewModel
             }
         }
 
+        public void Delete()
+        {
+            if (SelectedPatient == null)
+            {
+                return;
+            }
+            PatientServiceProxy.Current.DeletePatient(SelectedPatient.Id);
+
+            Refresh();
+        }
+
         public void Refresh()
         {
             NotifyPropertyChanged("Patients");
         }
-
     }
 }
