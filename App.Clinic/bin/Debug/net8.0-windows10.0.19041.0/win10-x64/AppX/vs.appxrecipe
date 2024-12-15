@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-13T05:24:02.784</Modified>
+      <Modified>2024-12-15T21:14:23.858</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.dll">
       <PackagePath>App.Clinic.dll</PackagePath>
-      <Modified>2024-12-13T05:24:00.721</Modified>
+      <Modified>2024-12-15T21:14:23.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>App.Clinic.exe</PackagePath>
-      <Modified>2024-12-13T05:24:00.816</Modified>
+      <Modified>2024-12-15T21:14:23.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
