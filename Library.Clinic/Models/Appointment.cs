@@ -9,51 +9,18 @@ namespace Library.Clinic.Models
     public class Appointment
     {
         public int Id { get; set; }
-
-        private DateTime? appointmentTime;
-        public DateTime AppointmentTime
-        {
-            get
-            {
-                return appointmentTime ?? DateTime.MinValue;
-            }
-            set
-            {
-                appointmentTime = value;
-            }
-        }
-
-        private int physicianLicense;
-        public int PhysicianLicense
-        {
-            get
-            {
-                return physicianLicense;
-            }
-            set
-            {
-                physicianLicense = value;
-            }
-        }
-
-        private int patientId;
-        public int PatientId
-        {
-            get
-            {
-                return patientId;
-            }
-            set
-            {
-                patientId = value;
-            }
-        }
+        public DateTime? StartTime { get; set; }
+        public DateTime? EndTime { get; set; }
+        public int PhysicianLicense { get; set; }
+        public int PatientId { get; set; }
+        public Patient? Patient { get; set; }
 
         public Appointment()
         {
-            appointmentTime = DateTime.MinValue;
-            physicianLicense = 0;
-            patientId = 0;
+            StartTime = DateTime.MinValue;
+            EndTime = DateTime.MinValue;
+            PhysicianLicense = 0;
+            PatientId = 0;
         }
     }
 }

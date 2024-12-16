@@ -1,14 +1,16 @@
-﻿// AppointmentServiceProxy.cs
-using Library.Clinic.Models;
+﻿using Library.Clinic.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Library.Clinic.Services
 {
-    public static class AppointmentServiceProxy
+    public class AppointmentServiceProxy
     {
-        public static int LastKey
+        private static object _lock = new object();
+        private int lastKey
         {
             get
             {
@@ -16,62 +18,52 @@ namespace Library.Clinic.Services
                 {
                     return Appointments.Select(x => x.Id).Max();
                 }
-                else
+                return 0;
+            }
+        }
+        public List<Appointment> Appointments { get; private set; }
+
+        private static AppointmentServiceProxy _instance;
+        public static AppointmentServiceProxy Current
+        {
+            get
+            {
+
+                lock (_lock)
                 {
-                    return 0;
+                    if (_instance == null)
+                    {
+                        _instance = new AppointmentServiceProxy();
+                    }
                 }
+                return _instance;
             }
         }
-        public static List<Appointment> Appointments { get; private set; } = new List<Appointment>();
 
-        public static bool IsValidAppointmentTime(DateTime appointmentTime)
+        private AppointmentServiceProxy()
         {
-            // Check if it's a weekday
-            if (appointmentTime.DayOfWeek == DayOfWeek.Saturday || appointmentTime.DayOfWeek == DayOfWeek.Sunday)
-                return false;
-
-            // Check if it's between 8 AM and 5 PM
-            if (appointmentTime.Hour < 8 || appointmentTime.Hour >= 17)
-                return false;
-
-            return true;
+            Appointments = new List<Appointment> {
+                new Appointment {Id = 1
+                , StartTime = new DateTime(2024, 10, 9)
+                , EndTime = new DateTime(2024, 10, 9)
+                , PatientId = 1}
+            };
         }
 
-        public static bool IsPhysicianAvailable(int licenseNum, DateTime appointmentTime)
+        public void AddOrUpdate(Appointment a)
         {
-            return !Appointments.Any(a =>
-                a.PhysicianLicense == licenseNum &&
-                a.AppointmentTime == appointmentTime);
-        }
-
-        public static void AddAppointment(Appointment appointment)
-        {
-            if (appointment.Id <= 0)
+            var isAdd = false;
+            if (a.Id <= 0)
             {
-                appointment.Id = LastKey + 1;
+                a.Id = lastKey + 1;
+                isAdd = true;
             }
 
-            if (!IsValidAppointmentTime(appointment.AppointmentTime))
+            if (isAdd)
             {
-                throw new ArgumentException("Appointment must be between 8 AM and 5 PM on weekdays.");
+                Appointments.Add(a);
             }
 
-            if (!IsPhysicianAvailable(appointment.PhysicianLicense, appointment.AppointmentTime))
-            {
-                throw new ArgumentException("Physician is already booked at this time.");
-            }
-
-            Appointments.Add(appointment);
-        }
-
-        public static void DeleteAppointment(int id)
-        {
-            var appointmentToRemove = Appointments.FirstOrDefault(p => p.Id == id);
-            if (appointmentToRemove != null)
-            {
-                Appointments.Remove(appointmentToRemove);
-            }
         }
     }
-    
 }

@@ -8,25 +8,20 @@ using System.Xml.Serialization;
 
 namespace Library.Clinic.Services
 {
-
-
     public static class PhysicianServiceProxy
     {
-        public static int LastKey
+        public static List<Physician> Physicians { get; private set; } = new List<Physician>
         {
-            get
+            new Physician
             {
-                if (Physicians.Any())
-                {
-                    return Physicians.Select(x => x.licenseNum).Max();
-                }
-                else
-                {
-                    return 0;
-                }
+                licenseNum = 1,
+                Name = "Dr. Smith",
+                Specialization = "General Practice",
+                gradDate = new DateTime(2010, 5, 15)
             }
-        }
-        public static List<Physician> Physicians { get; private set; } = new List<Physician>();  // Make consistent naming
+        };
+
+        public static int LastKey => Physicians.Any() ? Physicians.Max(x => x.licenseNum) : 0;
 
         public static void AddPhysician(Physician physician)
         {
@@ -34,16 +29,25 @@ namespace Library.Clinic.Services
             {
                 physician.licenseNum = LastKey + 1;
             }
-            Physicians.Add(physician);  // Use correct property name
+            Physicians.Add(physician);
+        }
+
+        public static void UpdatePhysician(Physician physician)
+        {
+            var existingIndex = Physicians.FindIndex(p => p.licenseNum == physician.licenseNum);
+            if (existingIndex >= 0)
+            {
+                Physicians[existingIndex] = physician;
+            }
         }
 
         public static void DeletePhysician(int license)
         {
-            var physicianToRemove = Physicians.FirstOrDefault(p => p.licenseNum == license);
-            if (physicianToRemove != null)
+            var physician = Physicians.FirstOrDefault(p => p.licenseNum == license);
+            if (physician != null)
             {
-                Physicians.Remove(physicianToRemove);
+                Physicians.Remove(physician);
             }
         }
     }
-} 
+}

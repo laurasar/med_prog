@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-15T21:14:23.858</Modified>
+      <Modified>2024-12-16T01:36:37.024</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-13T03:21:37.170</Modified>
+      <Modified>2024-12-16T01:35:08.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.runtimeconfig.json">
       <PackagePath>App.Clinic.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.dll">
       <PackagePath>App.Clinic.dll</PackagePath>
-      <Modified>2024-12-15T21:14:23.053</Modified>
+      <Modified>2024-12-16T01:36:36.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>App.Clinic.exe</PackagePath>
-      <Modified>2024-12-15T21:14:23.059</Modified>
+      <Modified>2024-12-16T01:36:36.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.deps.json">
       <PackagePath>App.Clinic.deps.json</PackagePath>
-      <Modified>2024-12-13T03:21:36.445</Modified>
+      <Modified>2024-12-16T01:35:08.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -576,7 +576,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\Library.Clinic\bin\Debug\net8.0\Library.Clinic.dll">
       <PackagePath>Library.Clinic.dll</PackagePath>
-      <Modified>2024-12-13T03:36:20.919</Modified>
+      <Modified>2024-12-16T01:13:01.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

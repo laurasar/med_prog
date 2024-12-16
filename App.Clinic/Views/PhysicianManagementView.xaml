@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Clinic.Views.PhysicianManagementView"
+             Title="Physician Management"
+             NavigatedTo="PhysicianManagement_NavigatedTo">
+
+    <Grid RowDefinitions="Auto,*,Auto" Padding="10">
+        <StackLayout Orientation="Horizontal" Grid.Row="0">
+            <Entry Placeholder="Search physicians..."
+                   Text="{Binding Query}"
+                   HorizontalOptions="FillAndExpand"/>
+            <Button Text="Refresh" 
+                    Clicked="RefreshClicked"/>
+        </StackLayout>
+
+        <CollectionView Grid.Row="1"
+                       ItemsSource="{Binding Physicians}"
+                       SelectedItem="{Binding SelectedPhysician}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Label Text="{Binding Display}"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <StackLayout Grid.Row="2" 
+                     Orientation="Horizontal"
+                     HorizontalOptions="End">
+            <Button Text="Add" 
+                    Clicked="AddClicked"/>
+            <Button Text="Edit" 
+                    Clicked="EditClicked"/>
+            <Button Text="Delete" 
+                    Clicked="DeleteClicked"/>
+            <Button Text="Cancel" 
+                    Clicked="CancelClicked"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

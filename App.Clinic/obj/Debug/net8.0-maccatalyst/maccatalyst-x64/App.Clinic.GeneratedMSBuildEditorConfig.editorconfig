@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/msinf/source/repos/med_prog1/App.Clinic/Views/AppointmentManagementView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Views.AppointmentManagementView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AppointmentManagementView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AppointmentManagementView.xaml
+
+[C:/Users/msinf/source/repos/med_prog1/App.Clinic/Views/AppointmentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Views.AppointmentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AppointmentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AppointmentView.xaml
+
 [C:/Users/msinf/source/repos/med_prog1/App.Clinic/Views/PatientManagement.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Views.PatientManagement.xaml
@@ -57,3 +69,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Views.PatientView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\PatientView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\PatientView.xaml
+
+[C:/Users/msinf/source/repos/med_prog1/App.Clinic/Views/PhysicianManagementView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Views.PhysicianManagementView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PhysicianManagementView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PhysicianManagementView.xaml
+
+[C:/Users/msinf/source/repos/med_prog1/App.Clinic/Views/PhysicianView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.Clinic.Views.PhysicianView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PhysicianView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PhysicianView.xaml
