@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace App.Clinic.ViewModels
 {
-    public class PhysicianManagementViewModel : INotifyPropertyChanged
+    public class PhysicianManagementViewModel : ContentPage, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -39,26 +39,37 @@ namespace App.Clinic.ViewModels
                 {
                     query = value;
                     NotifyPropertyChanged();
-                    NotifyPropertyChanged(nameof(Physicians));
+                    LoadPhysicians();
                 }
             }
         }
 
-
+        private ObservableCollection<PhysicianViewModel> physicians;
         public ObservableCollection<PhysicianViewModel> Physicians
         {
-            get
+            get => physicians;
+            private set
             {
-                var physicians = PhysicianServiceProxy.Physicians
-                    .Where(p => string.IsNullOrEmpty(Query) ||
-                               p.Name.ToUpper().Contains(Query.ToUpper()) ||
-                               p.Specialization.ToUpper().Contains(Query.ToUpper()))
-                    .OrderBy(p => p.Name)
-                    .Take(100)
-                    .Select(p => new PhysicianViewModel(p))
-                    .ToList();
+                physicians = value;
+                NotifyPropertyChanged();
+            }
+        }
 
-                return new ObservableCollection<PhysicianViewModel>(physicians);
+        public void LoadPhysicians()
+        {
+            var filteredPhysicians = PhysicianServiceProxy.Current.Physicians
+                .Where(p => string.IsNullOrEmpty(Query) ||
+                           p.Name.ToUpper().Contains(Query?.ToUpper() ?? string.Empty) ||
+                           p.Specialization.ToUpper().Contains(Query?.ToUpper() ?? string.Empty))
+                .OrderBy(p => p.Name)
+                .Take(100)
+                .Select(p => new PhysicianViewModel(p))
+                .ToList();
+
+            Physicians.Clear();
+            foreach (var physician in filteredPhysicians)
+            {
+                Physicians.Add(physician);
             }
         }
 
@@ -66,20 +77,23 @@ namespace App.Clinic.ViewModels
         {
             if (SelectedPhysician?.Model != null)
             {
-                PhysicianServiceProxy.DeletePhysician(SelectedPhysician.Model.licenseNum);
+                PhysicianServiceProxy.Current.DeletePhysician(SelectedPhysician.Model.licenseNum);
                 Refresh();
             }
         }
 
         public void Refresh()
         {
-            NotifyPropertyChanged(nameof(Physicians));
+            LoadPhysicians();
         }
 
         public PhysicianManagementViewModel()
         {
-            // Initialize any required properties
+            physicians = new ObservableCollection<PhysicianViewModel>();
             Query = string.Empty;
+            LoadPhysicians();
         }
     }
+
+
 }

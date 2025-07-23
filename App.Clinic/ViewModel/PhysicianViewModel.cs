@@ -83,7 +83,7 @@ namespace App.Clinic.ViewModels
         {
             if (Model != null && Model.licenseNum > 0)
             {
-                PhysicianServiceProxy.DeletePhysician(Model.licenseNum);
+                PhysicianServiceProxy.Current.DeletePhysician(Model.licenseNum);
                 Shell.Current.GoToAsync("//Physicians");
             }
         }
@@ -123,11 +123,11 @@ namespace App.Clinic.ViewModels
             {
                 if (Model.licenseNum <= 0)
                 {
-                    PhysicianServiceProxy.AddPhysician(Model);
+                    PhysicianServiceProxy.Current.AddPhysician(Model);
                 }
                 else
                 {
-                    PhysicianServiceProxy.UpdatePhysician(Model);
+                    PhysicianServiceProxy.Current.UpdatePhysician(Model);
                 }
                 Shell.Current.GoToAsync("//Physicians");
             }
@@ -147,5 +147,7 @@ namespace App.Clinic.ViewModels
 
             return true;
         }
+
+        
     }
 }

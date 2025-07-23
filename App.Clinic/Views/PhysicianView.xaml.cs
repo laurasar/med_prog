@@ -28,7 +28,7 @@ public partial class PhysicianView : ContentPage
     {
         if (LicenseNum > 0)
         {
-            var model = PhysicianServiceProxy.Physicians
+            var model = PhysicianServiceProxy.Current.Physicians
                 .FirstOrDefault(p => p.licenseNum == LicenseNum);
             if (model != null)
             {

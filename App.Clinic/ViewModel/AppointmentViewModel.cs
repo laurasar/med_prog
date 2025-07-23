@@ -20,7 +20,7 @@ namespace App.Clinic.ViewModels
             new(PatientServiceProxy.Current.Patients);
 
         public ObservableCollection<Physician> Physicians =>
-            new(PhysicianServiceProxy.Physicians);
+            new(PhysicianServiceProxy.Current.Physicians);
 
         public DateTime MinStartDate => DateTime.Today;
 

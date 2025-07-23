@@ -8,9 +8,28 @@ using System.Xml.Serialization;
 
 namespace Library.Clinic.Services
 {
-    public static class PhysicianServiceProxy
+    public class PhysicianServiceProxy
     {
-        public static List<Physician> Physicians { get; private set; } = new List<Physician>
+        private static object _lock = new object();
+        private static PhysicianServiceProxy? instance;
+
+        public List<Physician> Physicians { get; private set; }
+
+        public static PhysicianServiceProxy Current
+        {
+            get
+            {
+                lock (_lock)
+                {
+                    instance ??= new PhysicianServiceProxy();
+                }
+                return instance;
+            }
+        }
+
+        private PhysicianServiceProxy()
+        {
+            Physicians = new List<Physician>
         {
             new Physician
             {
@@ -20,10 +39,9 @@ namespace Library.Clinic.Services
                 gradDate = new DateTime(2010, 5, 15)
             }
         };
+        }
 
-        public static int LastKey => Physicians.Any() ? Physicians.Max(x => x.licenseNum) : 0;
-
-        public static void AddPhysician(Physician physician)
+        public void AddPhysician(Physician physician)
         {
             if (physician.licenseNum <= 0)
             {
@@ -32,7 +50,7 @@ namespace Library.Clinic.Services
             Physicians.Add(physician);
         }
 
-        public static void UpdatePhysician(Physician physician)
+        public void UpdatePhysician(Physician physician)
         {
             var existingIndex = Physicians.FindIndex(p => p.licenseNum == physician.licenseNum);
             if (existingIndex >= 0)
@@ -41,12 +59,24 @@ namespace Library.Clinic.Services
             }
         }
 
-        public static void DeletePhysician(int license)
+        public void DeletePhysician(int license)
         {
             var physician = Physicians.FirstOrDefault(p => p.licenseNum == license);
             if (physician != null)
             {
                 Physicians.Remove(physician);
+            }
+        }
+
+        public int LastKey
+        {
+            get
+            {
+                if (Physicians.Any())
+                {
+                    return Physicians.Max(x => x.licenseNum);
+                }
+                return 0;
             }
         }
     }

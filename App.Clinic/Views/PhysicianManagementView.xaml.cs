@@ -1,8 +1,12 @@
 using App.Clinic.ViewModels;
+using Library.Clinic.Models;
+using Library.Clinic.Services;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace App.Clinic.Views;
 
-public partial class PhysicianManagementView : ContentPage
+public partial class PhysicianManagementView : ContentPage, INotifyPropertyChanged
 {
     public PhysicianManagementView()
     {

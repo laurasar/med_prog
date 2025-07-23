@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-16T01:36:37.024</Modified>
+      <Modified>2024-12-16T19:23:11.716</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\App.Clinic.dll">
       <PackagePath>App.Clinic.dll</PackagePath>
-      <Modified>2024-12-16T01:36:36.267</Modified>
+      <Modified>2024-12-16T02:39:27.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>App.Clinic.exe</PackagePath>
-      <Modified>2024-12-16T01:36:36.267</Modified>
+      <Modified>2024-12-16T02:39:27.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\App.Clinic\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -576,7 +576,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\source\repos\med_prog1\Library.Clinic\bin\Debug\net8.0\Library.Clinic.dll">
       <PackagePath>Library.Clinic.dll</PackagePath>
-      <Modified>2024-12-16T01:13:01.694</Modified>
+      <Modified>2024-12-16T01:52:45.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\msinf\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
